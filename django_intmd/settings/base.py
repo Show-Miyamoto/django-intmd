@@ -196,3 +196,11 @@ LOGGING = {
         },
     },
 }
+
+# Static files (CSS, JavaScript, Images)
+STATIC_URL = "static/"
+
+MEDIA_URL = "media/"
+
+STATIC_ROOT = BASE_DIR / "static"
+MEDIA_ROOT = STATIC_ROOT / "media"
