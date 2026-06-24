@@ -204,3 +204,5 @@ MEDIA_URL = "media/"
 
 STATIC_ROOT = BASE_DIR / "static"
 MEDIA_ROOT = STATIC_ROOT / "media"
+
+AUTH_USER_MODEL = "matching_app.User"
